@@ -136,7 +136,7 @@ while not complete:
             # notify
             requests.post(notify.api_url, headers=notify.TOKEN_dic, data=notify.send_dic)
         complete = True
-        # print(result)
+        print("search completed")
     else:
         # if not complete wait for next call
         print("incomplete status:wait 3mins for next call")
