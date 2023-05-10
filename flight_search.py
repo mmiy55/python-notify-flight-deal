@@ -139,5 +139,5 @@ while not complete:
         # print(result)
     else:
         # if not complete wait for next call
-        print("incomplete status:wait 1min for next call")
-        time.sleep(60)
+        print("incomplete status:wait 3mins for next call")
+        time.sleep(180)
