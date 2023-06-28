@@ -29,6 +29,7 @@ google_creds = service_account.Credentials.from_service_account_file(
 
 
 # The ID and range of a sample spreadsheet.
+# spreadsheet link: https://docs.google.com/spreadsheets/d/18yRZu4DHzasAKjoBWcVpD4GQ0pPsKZO8aEJgnRdtBJU/edit#gid=0
 SPREADSHEET_ID = '18yRZu4DHzasAKjoBWcVpD4GQ0pPsKZO8aEJgnRdtBJU'
 # SPREADSHEET_READ_RANGE = 'prices!A1:C10'
 SPREADSHEET_WRITE_RANGE = 'results!A2'
